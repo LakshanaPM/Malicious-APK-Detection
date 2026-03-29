@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- App Name -->
+        <TextView
+            android:id="@+id/tvAppName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App Name"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <!-- Risk Level Badge -->
+        <TextView
+            android:id="@+id/tvRiskLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/risk_high"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:padding="8dp"
+            android:background="@drawable/bg_risk_high" />
+
+        <!-- Risk Score -->
+        <TextView
+            android:id="@+id/tvRiskScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Risk Score: 85 / 100"
+            android:paddingTop="8dp"
+            android:textSize="15sp" />
+
+        <!-- Certificate Info -->
+        <TextView
+            android:id="@+id/tvCertificate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Certificate: Debug / Unknown"
+            android:paddingTop="12dp" />
+
+        <!-- Abuse Warning -->
+        <TextView
+            android:id="@+id/tvAbuseWarning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚠ Overlay + SMS abuse detected"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <!-- Permissions Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/permissions_title"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <!-- Permissions List -->
+        <TextView
+            android:id="@+id/tvPermissions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- READ_SMS\n- SYSTEM_ALERT_WINDOW\n- INTERNET"
+            android:paddingTop="4dp" />
+
+        <!-- Warning Message -->
+        <TextView
+            android:id="@+id/tvWarningMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/malware_warning"
+            android:textColor="@android:color/holo_red_dark"
+            android:paddingTop="16dp" />
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:paddingTop="20dp">
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel_install" />
+
+            <Button
+                android:id="@+id/btnProceed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/proceed_anyway"
+                android:layout_marginStart="12dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
