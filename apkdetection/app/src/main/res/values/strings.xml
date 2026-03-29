@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">APK Detection</string>
+
+    <!-- Main Screen -->
+    <string name="title_main">Smart APK Detection</string>
+    <string name="desc_main">
+        Select an APK file to analyze its security risks before installation.
+    </string>
+    <string name="select_apk">Select APK</string>
+    <string name="status_waiting">Waiting for APK selection…</string>
+    <string name="status_opening_picker">Opening APK picker…</string>
+
+    <!-- Result Screen -->
+    <string name="risk_score">Risk Score: %1$d / 100</string>
+    <string name="risk_high">HIGH</string>
+    <string name="risk_suspicious">SUSPICIOUS</string>
+    <string name="risk_safe">SAFE</string>
+
+    <string name="certificate_info">Certificate: Debug / Unknown</string>
+
+    <string name="abuse_warning">⚠ Overlay + SMS abuse detected</string>
+
+    <string name="permissions_title">Requested Permissions:</string>
+
+    <string name="malware_warning">
+        This APK shows behavior similar to known malware. Installing it may lead to OTP theft or financial fraud.
+    </string>
+
+    <!-- Buttons -->
+    <string name="cancel_install">Cancel Install</string>
+    <string name="proceed_anyway">Proceed Anyway</string>
+
+</resources>

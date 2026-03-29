@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Material default colors -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+
+    <!-- Required by Theme.kt -->
+    <color name="Purple40">#6750A4</color>
+    <color name="Purple80">#D0BCFF</color>
+    <color name="PurpleGrey40">#625B71</color>
+    <color name="PurpleGrey80">#CCC2DC</color>
+    <color name="Pink40">#7D5260</color>
+    <color name="Pink80">#EFB8C8</color>
+
+    <!-- Risk colors -->
+    <color name="risk_safe">#2E7D32</color>
+    <color name="risk_suspicious">#F57C00</color>
+    <color name="risk_high">#C62828</color>
+
+</resources>
